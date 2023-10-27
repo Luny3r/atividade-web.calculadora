@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap');
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(120deg, black, rgb(14, 3, 2))
+}
+
+input{
+    color: rgb(180, 180, 180);
+    padding: 17px;
+    outline: none;
+    font-size: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+    border-radius: 15%;
+}
+
+.num{
+    width: 64px;
+    height: 67px;
+}
+.text{
+    width: 160px;
+    height: 26px;
+    border-radius: 22px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.text1{
+    width: 24px;
+    height: 26px;
+    border-radius: 50%;
+    text-align: center;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+.main{
+    display: inline-block;
+}
+
+.maincolor{
+    background:linear-gradient(35deg, black, rgb(0, 0, 0))
+}
+
+.blue{
+    background:linear-gradient(35deg, rgb(37, 1, 1), rgb(77, 4, 4))
+}
+
+.pin{
+    background:linear-gradient(35deg, rgb(77, 13, 1), rgb(151, 0, 0))
+}
+
+.gre{
+    background:linear-gradient(35deg, rgb(99, 44, 0), rgb(143, 93, 0))
+}
+
+.pur{
+    background:linear-gradient(35deg, rgb(29, 29, 29), rgb(138, 135, 135))
+}
+
+.ora{
+    background:linear-gradient(36deg, rgb(143, 123, 12), rgb(219, 183, 0))
+}
